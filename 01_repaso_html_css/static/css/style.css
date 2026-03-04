@@ -49,6 +49,7 @@ aside button {
     background-color: #E30000;
     width: 75%;
     padding: 20px;
+    height: 400px;
 }
 
 .row {
@@ -65,8 +66,18 @@ aside button {
 .tarjetaMorada {
     width: 100%;
     background-color: #8F2487;
-    height: 100px;
+    height: 125px;
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+    margin-top: 20px;
+}
+
+.tarjetaMorada button {
+    border: none;
+    border-radius: 20px;
+    height: 70px;
+    color: #8F2487;
+    font-size: 20px;
+    width: 20%;
 }
